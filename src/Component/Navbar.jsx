@@ -6,7 +6,7 @@ import { IoLogoReact } from "react-icons/io5";
 const Navbar = () => {
   return (
     <>
-      <main className=" h-md-24 flex flex-row items-center gap-8 px-5 py-5 justify-between">
+      <main className=" bg-slate-50 h-md-24 flex flex-row items-center gap-8 px-5 py-5 justify-between drop-shadow-sm">
         <div className="flex gap-5">
         <IoLogoReact className="text-[45px] text-[#087EA4]"/>
          <p className="text-[#5E687E] gap-4 pt-3 text-[15px]">v19</p>

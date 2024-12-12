@@ -2,7 +2,7 @@
 function Footer({inputValue}){
     return (
         <>
-        <div className="h-16 bg-slate-400">
+        <div className="h-24 bg-slate-400">
         <p className="text-white px-5 py-5">{inputValue}</p>
         </div>
         </>
