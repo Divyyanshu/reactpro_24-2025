@@ -5,6 +5,7 @@ import Header from "./Component/Header";
 import Footer from "./Component/footer";
 import Login from "./Component/LoginData";
 import ListFruits from "./Component/ListFruit";
+import Signup from "./Component/Signup";
 // import Fruits from "./Component/Fruits";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Login/>
       <Header setInputValue = {setInputValue}/>
       <ListFruits/>
+      <Signup/>
       <Footer inputValue = {inputValue}/>
     {/* <Fruits/> */}
     <div className="px-72 py-10">
